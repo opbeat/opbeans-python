@@ -1,0 +1,22 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+elastic-apm = "*"
+django = "<2.0"
+django-redis = "*"
+"psycopg2" = "*"
+celery = "*"
+dj-database-url = "*"
+"27baf13" = {file = "https://github.com/elastic/elasticsearch-dsl-py/archive/master.zip"}
+honcho = "*"
+whitenoise = "*"
+
+
+[dev-packages]
+
